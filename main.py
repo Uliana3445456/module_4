@@ -1,5 +1,4 @@
-def d(a):
-    return a == (a[::-1])
-while True:
-    a = input()
-    print(f"{a} True" if d(a) else "False")
+def ask_26(a, b):
+    return a>b
+
+print(ask_26(10,16))
